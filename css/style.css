@@ -205,6 +205,8 @@ ul li {
     font-size: 30px;
     padding: 50px 0;
     /* text-align: center; */
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
 }
 
 .bottom-btn {
@@ -218,9 +220,10 @@ ul li {
 
 /* footer */
 .center2 {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
+
 .f-bg-color {
     background-color:  #23272A;
 }
@@ -228,21 +231,65 @@ ul li {
 .footer-container {
     display: flex;
     justify-content: center;
-    padding: 100px 0 40px;
+    padding: 150px 0 40px;
 }
 
 .red {
-    width: 60%;
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 15px;
+
+    /* DEBUG */
+    /* height: 700px;
     background-color: #F08180;
-    border: 3px black dashed;
+    border: 3px black dashed; */
+}
+
+#f-title-color {
+    color: #7390E8;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+select {
+    /* appearance: none; */
+    background-color: #23272A;
+    border: none;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+#drop-down {
+    color: white;
+}
+
+.fa-brands {
+    color: white;
 }
 
 .acqua {
     width: 30%;
-    height: 700px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* debug */
+    /* height: 700px;
     background-color: #20B3AA;
-    border: 3px black dashed;
+    border: 3px black dashed; */
+}
+
+h4 {
+    color: #7390E8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -257,8 +304,8 @@ ul li {
 
 .footer-bg {
     width: 100%;
-    background-color: #7FFFD4;
     padding: 30px 0;
+    /* background-color: #7FFFD4; */
 }
 
 #bottom-info-con {
@@ -267,16 +314,23 @@ ul li {
 }
 
 .logo2 {
-    padding: 5px 10px;
+    /* padding: 5px 10px;
     background-color: #FFB4C7;
     width: 15%;
-    border: 3px black dashed;
+    border: 3px black dashed; */
 }
 
 .f-info-bt {
-    padding: 5px 10px;
+    /* padding: 5px 10px;
     background-color: #FFB4C7;
     width: 15%;
     border: 3px black dashed;
-    text-align: end;
+    text-align: end; */
+}
+
+.bottom-btn-2 {
+    background-color: #8EA1E2;
+    color: white;
+    font-size: 15px;
+    text-align: center;
 }

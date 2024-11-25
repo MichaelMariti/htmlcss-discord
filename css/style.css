@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+/* nav menu */
+.nav-flex-container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    /* height: 40px; */
+    background-color: #3160E0;    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    gap: 50px;
+    color: white;
+    align-items: center;
+}
+
+
+.login {    
+    text-align: center;
+    background-color: #FEFEFC;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+
+/* header */
+.jumbo {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/jumbo.png);
+    padding: 50px 0;
+}
+
+.jumbo-box {
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    /* DEBUG */
+
+}
+
+.title {
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+
+#title-description {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.buttons {
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+}
+
+.jumbo-bts-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.jumbo-bt-white {
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 20px;
+}
+
+.jumbo-bt-black {
+    background-color: #24272A;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* main */
+
+
+
+/* Three main sections */
+.center {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.title-sections {
+    font-size: 50px;
+    font-weight: 750;
+    color: black;
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+
+.section-description {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.sec-flex {
+    display: flex;
+    justify-content: center;
+    padding: 130px 150px;
+}
+
+.sec1-box1 {
+    /* width: 60%; */
+    margin-right: 90px;
+    /* DEBUG */
+    /* height: 400px;
+    width: 700px;
+    background-color: #1E90FF;
+    border: 3px black dashed; */
+}
+
+.sec1-box2 {
+    width: auto;
+    /* DEBUG */
+    /* height: 400px;
+    background-color: #FFC0CA;
+    border: 3px black dashed; */
+}
+
+.sec-bg-color {
+    background-color: lightgray;
+}
+
+.sec2-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 40px 150px;
+    background-color: lightgray;
+}
+
+.sec2-box1 {
+    /* DEBUG */
+    height: 400px;
+    width: 60%;
+    background-color: #1E90FF;
+    border: 3px black dashed;
+}
+
+.sec2-box2 {
+    /* DEBUG */
+    height: 400px;
+    width: 40%;
+    background-color: #FFC0CA;
+    border: 3px black dashed;
+}
+
+/* green box */
+.green-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 40px 150px;
+}
+
+.greenbox {
+    width: 65%;
+    height: 700px;
+    background-color: #218B21;
+    border: 3px black dashed;
+}
+
+
+
+/* footer */
+.center2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.f-bg-color {
+    background-color:  #23272A;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 40px;
+}
+
+.red {
+    width: 60%;
+    height: 700px;
+    background-color: #F08180;
+    border: 3px black dashed;
+}
+
+.acqua {
+    width: 30%;
+    height: 700px;
+    background-color: #20B3AA;
+    border: 3px black dashed;
+}
+
+
+
+/* bottom info */
+.f-bottom-con {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    padding-top: 25px;
+}
+
+.footer-bg {
+    width: 100%;
+    background-color: #7FFFD4;
+    padding: 30px 0;
+}
+
+#bottom-info-con {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.logo2 {
+    padding: 5px 10px;
+    background-color: #FFB4C7;
+    width: 15%;
+    border: 3px black dashed;
+}
+
+.f-info-bt {
+    padding: 5px 10px;
+    background-color: #FFB4C7;
+    width: 15%;
+    border: 3px black dashed;
+    text-align: end;
+}
